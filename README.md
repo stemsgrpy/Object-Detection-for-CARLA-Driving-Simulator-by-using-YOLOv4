@@ -1,14 +1,23 @@
 # Object-Detection-for-CARLA-Driving-Simulator-by-using-YOLOv4
 
 ## CARLA Simulator
-- The simulation platform provides open digital assets (urban layouts, buildings, vehicles), such as Fig1.
+- The simulation platform provides open digital assets (urban layouts, buildings, vehicles), as shown in Fig1.
 - Download [CARLA](http://carla.org/) (CARLA_0.9.5 version)
+- Running CARLA
+  - Linux: 
+```
+./CarlaUE4.sh
+```
+  - Windows: 
+```
+CarlaUE4.exe
+```
 
 <p align="center">
   <img width="500" src="/README/carla.jpg">
 </p>
 <p align="center">
-  Figure 1: Urban Layout
+  Figure 1: urban layout
 </p>
 
 ## Dataset
@@ -16,8 +25,11 @@
   - Urban layout **Town03** is used as experimental site
   - Objects (**Vehicle**, **Bike**, **Motobike**, **Traffic light**, **Traffic sign**) can be recognized in different urban layouts
 - Download [Carla-Object-Detection-Dataset](https://github.com/DanielHfnr/Carla-Object-Detection-Dataset)
-
-
+  - Put `.png` and `.xml` to the `VOCdevkit/VOC2007/JPEGImages` and `VOCdevkit/VOC2007/Annotations`, respectively
+  - Obtain label format:
+```
+voc_annotation.py
+```
 
 ## Result
 <p align="center">
@@ -39,7 +51,7 @@
 </p>
 
 ## Reference
-https://github.com/AlexeyAB/darknet  
-https://github.com/bubbliiiing/yolov4-pytorch  
-[Introduction-Self-driving cars with Carla and Python](https://pythonprogramming.net/introduction-self-driving-autonomous-cars-carla-python/)  
-https://github.com/DanielHfnr/Carla-Object-Detection-Dataset  
+https://github.com/AlexeyAB/darknet
+https://github.com/bubbliiiing/yolov4-pytorch
+[Introduction-Self-driving cars with Carla and Python](https://pythonprogramming.net/introduction-self-driving-autonomous-cars-carla-python/)
+https://github.com/DanielHfnr/Carla-Object-Detection-Dataset
