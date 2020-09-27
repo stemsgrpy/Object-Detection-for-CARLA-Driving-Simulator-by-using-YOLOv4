@@ -4,13 +4,9 @@
 - The simulation platform provides open digital assets (urban layouts, buildings, vehicles), as shown in Fig1.
 - Download [CARLA](http://carla.org/) (CARLA_0.9.5 version)
 - Running CARLA
-  - Linux: 
 ```
-./CarlaUE4.sh
-``` 
-  - Windows:  
-```
-CarlaUE4.exe
+./CarlaUE4.sh (Linux)
+CarlaUE4.exe (Windows)
 ```
 
 <p align="center">
@@ -26,7 +22,7 @@ CarlaUE4.exe
   - Objects (**Vehicle**, **Bike**, **Motobike**, **Traffic light**, **Traffic sign**) can be recognized in different urban layouts
 - Download [Carla-Object-Detection-Dataset](https://github.com/DanielHfnr/Carla-Object-Detection-Dataset)
   - Put `.png` and `.xml` to the `VOCdevkit/VOC2007/JPEGImages` and `VOCdevkit/VOC2007/Annotations`, respectively
-  - Obtain label format:
+- Obtain label format:
 ```
 voc_annotation.py
 ```
