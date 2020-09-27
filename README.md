@@ -51,7 +51,7 @@ voc_annotation.py
 </p>
 
 ## Reference
-https://github.com/AlexeyAB/darknet
-https://github.com/bubbliiiing/yolov4-pytorch
-[Introduction-Self-driving cars with Carla and Python](https://pythonprogramming.net/introduction-self-driving-autonomous-cars-carla-python/)
-https://github.com/DanielHfnr/Carla-Object-Detection-Dataset
+https://github.com/AlexeyAB/darknet  
+https://github.com/bubbliiiing/yolov4-pytorch  
+[Introduction-Self-driving cars with Carla and Python](https://pythonprogramming.net/introduction-self-driving-autonomous-cars-carla-python/)  
+https://github.com/DanielHfnr/Carla-Object-Detection-Dataset  
