@@ -7,8 +7,8 @@
   - Linux: 
 ```
 ./CarlaUE4.sh
-```
-  - Windows: 
+``` 
+  - Windows:  
 ```
 CarlaUE4.exe
 ```
