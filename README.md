@@ -32,10 +32,10 @@ python voc_annotation.py
 python predict.py
 ```
 <p align="center">
-  <img src="/README/Town03_013260_predict.png" alt="Description" width="160" height="95" border="0" />
-  <img src="/README/Town03_015500_predict.png" alt="Description" width="160" height="95" border="0" />
-  <img src="/README/Town04_002280_predict.png" alt="Description" width="160" height="95" border="0" />
-  <img src="/README/Town05_017100_predict.png" alt="Description" width="160" height="95" border="0" />
+  <img src="/README/Town03_013260_predict.png" alt="Description" width="320" height="190" border="0" />
+  <img src="/README/Town03_015500_predict.png" alt="Description" width="320" height="190" border="0" />
+  <img src="/README/Town04_002280_predict.png" alt="Description" width="320" height="190" border="0" />
+  <img src="/README/Town05_017100_predict.png" alt="Description" width="320" height="190" border="0" />
 </p>
 <p align="center">
   Figure 2: Image Detection
